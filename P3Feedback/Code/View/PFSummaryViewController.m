@@ -12,7 +12,7 @@ objection_requires(@"issueData")
 static NSString *kDataCellId = @"dataCell";
 static NSString *kDatePickerCellId = @"datePickerCell";
 static NSString *kButtonCellId = @"buttonCell";
-static NSInteger *kDatePickerTag = 1;
+static NSInteger kDatePickerTag = 1;
 
 
 - (void)awakeFromNib
@@ -137,11 +137,17 @@ static NSInteger *kDatePickerTag = 1;
 	[self.tableView beginUpdates];
 
 	if(indexPath.row == 0)
+    {
 		if (_datePickerIsShown)
-			[self hideExistingPicker];
+        {
+            [self hideExistingPicker];
+        }
 		else
+        {
 			[self showNewPicker];
-
+        }
+    }
+    
 	if(indexPath.row == 4)
 		[self getCurrentLocation];
 
@@ -237,21 +243,5 @@ static NSInteger *kDatePickerTag = 1;
 		[_locationManager stopUpdatingLocation];
 	} ];
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @end

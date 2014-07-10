@@ -1,11 +1,3 @@
-//
-//  PFMainViewController.m
-//  P3Feedback
-//
-//  Created by Stephan Partzsch on 09.07.14.
-//  Copyright (c) 2014 P3. All rights reserved.
-//
-
 #import "PFMainViewController.h"
 #import "SWRevealViewController.h"
 

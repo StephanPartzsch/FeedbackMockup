@@ -10,6 +10,7 @@
 		7A904AB229F040B3A34AFFBB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59B9E4A54D544DAAB4712332 /* libPods.a */; };
 		D4EBE2C9196EA5ED0061B29E /* ProgressView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4EBE2C7196EA5ED0061B29E /* ProgressView.xib */; };
 		D4EBE2CB196EEFD90061B29E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4EBE2CA196EEFD90061B29E /* CoreLocation.framework */; };
+		D4EBE2CD196F084B0061B29E /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4EBE2CC196F084B0061B29E /* Images-2.xcassets */; };
 		D4EDDA0F196DBD390077FE9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4EDDA0E196DBD390077FE9B /* Foundation.framework */; };
 		D4EDDA11196DBD390077FE9B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4EDDA10196DBD390077FE9B /* CoreGraphics.framework */; };
 		D4EDDA13196DBD390077FE9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4EDDA12196DBD390077FE9B /* UIKit.framework */; };
@@ -33,6 +34,7 @@
 		6C6D7D55B29143E7B2FFCC07 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		D4EBE2C8196EA5ED0061B29E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ProgressView.xib; sourceTree = "<group>"; };
 		D4EBE2CA196EEFD90061B29E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D4EBE2CC196F084B0061B29E /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
 		D4EDDA0B196DBD390077FE9B /* P3Feedback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = P3Feedback.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4EDDA0E196DBD390077FE9B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D4EDDA10196DBD390077FE9B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +119,7 @@
 				D4EDDA15196DBD390077FE9B /* Supporting Files */,
 				F25B26D6FEA5E75DDC9A6BA4 /* Code */,
 				F25B26FFC117DA08449BCF41 /* Graphics */,
+				D4EBE2CC196F084B0061B29E /* Images-2.xcassets */,
 			);
 			path = P3Feedback;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 				D4EDDA19196DBD390077FE9B /* InfoPlist.strings in Resources */,
 				D4EBE2C9196EA5ED0061B29E /* ProgressView.xib in Resources */,
 				F25B2C1CD5DB945DB6AA7A0D /* Images.xcassets in Resources */,
+				D4EBE2CD196F084B0061B29E /* Images-2.xcassets in Resources */,
 				F25B2F5DB5FB2A1A51C287D4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
