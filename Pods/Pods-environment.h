@@ -6,6 +6,12 @@
 // project.
 
 
+// Objection
+#define COCOAPODS_POD_AVAILABLE_Objection
+#define COCOAPODS_VERSION_MAJOR_Objection 1
+#define COCOAPODS_VERSION_MINOR_Objection 4
+#define COCOAPODS_VERSION_PATCH_Objection 0
+
 // SWRevealViewController
 #define COCOAPODS_POD_AVAILABLE_SWRevealViewController
 #define COCOAPODS_VERSION_MAJOR_SWRevealViewController 2

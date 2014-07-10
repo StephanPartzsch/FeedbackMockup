@@ -8,23 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		7A904AB229F040B3A34AFFBB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59B9E4A54D544DAAB4712332 /* libPods.a */; };
+		D4EBE2C9196EA5ED0061B29E /* ProgressView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4EBE2C7196EA5ED0061B29E /* ProgressView.xib */; };
+		D4EBE2CB196EEFD90061B29E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4EBE2CA196EEFD90061B29E /* CoreLocation.framework */; };
 		D4EDDA0F196DBD390077FE9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4EDDA0E196DBD390077FE9B /* Foundation.framework */; };
 		D4EDDA11196DBD390077FE9B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4EDDA10196DBD390077FE9B /* CoreGraphics.framework */; };
 		D4EDDA13196DBD390077FE9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4EDDA12196DBD390077FE9B /* UIKit.framework */; };
 		D4EDDA19196DBD390077FE9B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4EDDA17196DBD390077FE9B /* InfoPlist.strings */; };
 		D4EDDA1B196DBD390077FE9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EDDA1A196DBD390077FE9B /* main.m */; };
+		F25B20DAF0FDFECA2DA59EA9 /* PFProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = F25B2D5801938877DCD3D093 /* PFProgressView.m */; };
 		F25B229D9279DCE0FBFE73AD /* PFMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F25B2C3FAEC3CD291EFFE469 /* PFMainViewController.m */; };
+		F25B2314719552B4BDA53609 /* PFIssueData.m in Sources */ = {isa = PBXBuildFile; fileRef = F25B297FAA0452CDF59F4A77 /* PFIssueData.m */; };
 		F25B233FE299AEB8AF1A2A40 /* PFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F25B2942AD3D812DCB625BE4 /* PFAppDelegate.m */; };
+		F25B24348561726BE1FC5C38 /* PFSummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F25B208778BFF3888BCD104B /* PFSummaryViewController.m */; };
 		F25B28472B6F88B5C4149CD9 /* PFSidebarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F25B2ACCB324770B0E3F0492 /* PFSidebarViewController.m */; };
-		F25B2B1966DB8A5A3989617C /* PFSpeedtestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F25B2F2AC432A122B76DA2A8 /* PFSpeedtestViewController.m */; };
+		F25B2B1966DB8A5A3989617C /* PFSpeedTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F25B2F2AC432A122B76DA2A8 /* PFSpeedTestViewController.m */; };
 		F25B2B2CE9E0222054366763 /* PFFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F25B20A2BA7C70C0A28958E8 /* PFFeedbackViewController.m */; };
 		F25B2C1CD5DB945DB6AA7A0D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F25B2D3861B43C9DC419EF59 /* Images.xcassets */; };
+		F25B2D59577102707DABCB73 /* PFThankYouViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F25B28441BF11144CAB19012 /* PFThankYouViewController.m */; };
 		F25B2F5DB5FB2A1A51C287D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F25B2DAF17050CF5D7E6B95A /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		59B9E4A54D544DAAB4712332 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C6D7D55B29143E7B2FFCC07 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		D4EBE2C8196EA5ED0061B29E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ProgressView.xib; sourceTree = "<group>"; };
+		D4EBE2CA196EEFD90061B29E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		D4EDDA0B196DBD390077FE9B /* P3Feedback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = P3Feedback.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4EDDA0E196DBD390077FE9B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D4EDDA10196DBD390077FE9B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -34,17 +42,25 @@
 		D4EDDA1A196DBD390077FE9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D4EDDA1C196DBD390077FE9B /* P3Feedback-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "P3Feedback-Prefix.pch"; sourceTree = "<group>"; };
 		D4EDDA2D196DBD390077FE9B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F25B208778BFF3888BCD104B /* PFSummaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFSummaryViewController.m; sourceTree = "<group>"; };
 		F25B20A2BA7C70C0A28958E8 /* PFFeedbackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFFeedbackViewController.m; sourceTree = "<group>"; };
+		F25B21103569925353998EA2 /* PFIssueData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFIssueData.h; sourceTree = "<group>"; };
 		F25B2449986CD314442246B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F25B28441BF11144CAB19012 /* PFThankYouViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFThankYouViewController.m; sourceTree = "<group>"; };
 		F25B2889A2D3913F3113E6CD /* PFSidebarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFSidebarViewController.h; sourceTree = "<group>"; };
 		F25B28AB7A564345AB56DD74 /* PFFeedbackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFFeedbackViewController.h; sourceTree = "<group>"; };
 		F25B2942AD3D812DCB625BE4 /* PFAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFAppDelegate.m; sourceTree = "<group>"; };
-		F25B29541E11AFDE6375BC4F /* PFSpeedtestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFSpeedtestViewController.h; sourceTree = "<group>"; };
+		F25B29541E11AFDE6375BC4F /* PFSpeedTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFSpeedTestViewController.h; sourceTree = "<group>"; };
+		F25B297FAA0452CDF59F4A77 /* PFIssueData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFIssueData.m; sourceTree = "<group>"; };
+		F25B2A875DA7FC3A0C0BB13D /* PFProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFProgressView.h; sourceTree = "<group>"; };
 		F25B2ACCB324770B0E3F0492 /* PFSidebarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFSidebarViewController.m; sourceTree = "<group>"; };
 		F25B2C3FAEC3CD291EFFE469 /* PFMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFMainViewController.m; sourceTree = "<group>"; };
+		F25B2CD6606D353ABEC8A2E7 /* PFThankYouViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFThankYouViewController.h; sourceTree = "<group>"; };
 		F25B2D3861B43C9DC419EF59 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F25B2D5801938877DCD3D093 /* PFProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFProgressView.m; sourceTree = "<group>"; };
 		F25B2DABC756BCC2384289F4 /* PFMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFMainViewController.h; sourceTree = "<group>"; };
-		F25B2F2AC432A122B76DA2A8 /* PFSpeedtestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFSpeedtestViewController.m; sourceTree = "<group>"; };
+		F25B2EF5F3CF90D8C9A42D81 /* PFSummaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFSummaryViewController.h; sourceTree = "<group>"; };
+		F25B2F2AC432A122B76DA2A8 /* PFSpeedTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFSpeedTestViewController.m; sourceTree = "<group>"; };
 		F25B2FBDF60B4BFBB974FEC7 /* PFAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFAppDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -53,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4EBE2CB196EEFD90061B29E /* CoreLocation.framework in Frameworks */,
 				D4EDDA11196DBD390077FE9B /* CoreGraphics.framework in Frameworks */,
 				D4EDDA13196DBD390077FE9B /* UIKit.framework in Frameworks */,
 				D4EDDA0F196DBD390077FE9B /* Foundation.framework in Frameworks */,
@@ -84,6 +101,7 @@
 		D4EDDA0D196DBD390077FE9B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D4EBE2CA196EEFD90061B29E /* CoreLocation.framework */,
 				D4EDDA0E196DBD390077FE9B /* Foundation.framework */,
 				D4EDDA10196DBD390077FE9B /* CoreGraphics.framework */,
 				D4EDDA12196DBD390077FE9B /* UIKit.framework */,
@@ -114,12 +132,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F25B23A09B9F0EED7C487AEE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F25B297FAA0452CDF59F4A77 /* PFIssueData.m */,
+				F25B21103569925353998EA2 /* PFIssueData.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		F25B26D6FEA5E75DDC9A6BA4 /* Code */ = {
 			isa = PBXGroup;
 			children = (
 				F25B2FBDF60B4BFBB974FEC7 /* PFAppDelegate.h */,
 				F25B2942AD3D812DCB625BE4 /* PFAppDelegate.m */,
 				F25B2FD76420E6F4F2B33026 /* View */,
+				F25B23A09B9F0EED7C487AEE /* Model */,
 			);
 			path = Code;
 			sourceTree = "<group>";
@@ -129,6 +157,7 @@
 			children = (
 				F25B2D3861B43C9DC419EF59 /* Images.xcassets */,
 				F25B2DAF17050CF5D7E6B95A /* Main.storyboard */,
+				D4EBE2C7196EA5ED0061B29E /* ProgressView.xib */,
 			);
 			name = Graphics;
 			sourceTree = "<group>";
@@ -142,8 +171,14 @@
 				F25B2889A2D3913F3113E6CD /* PFSidebarViewController.h */,
 				F25B20A2BA7C70C0A28958E8 /* PFFeedbackViewController.m */,
 				F25B28AB7A564345AB56DD74 /* PFFeedbackViewController.h */,
-				F25B2F2AC432A122B76DA2A8 /* PFSpeedtestViewController.m */,
-				F25B29541E11AFDE6375BC4F /* PFSpeedtestViewController.h */,
+				F25B2F2AC432A122B76DA2A8 /* PFSpeedTestViewController.m */,
+				F25B29541E11AFDE6375BC4F /* PFSpeedTestViewController.h */,
+				F25B2D5801938877DCD3D093 /* PFProgressView.m */,
+				F25B2A875DA7FC3A0C0BB13D /* PFProgressView.h */,
+				F25B208778BFF3888BCD104B /* PFSummaryViewController.m */,
+				F25B2EF5F3CF90D8C9A42D81 /* PFSummaryViewController.h */,
+				F25B28441BF11144CAB19012 /* PFThankYouViewController.m */,
+				F25B2CD6606D353ABEC8A2E7 /* PFThankYouViewController.h */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -204,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4EDDA19196DBD390077FE9B /* InfoPlist.strings in Resources */,
+				D4EBE2C9196EA5ED0061B29E /* ProgressView.xib in Resources */,
 				F25B2C1CD5DB945DB6AA7A0D /* Images.xcassets in Resources */,
 				F25B2F5DB5FB2A1A51C287D4 /* Main.storyboard in Resources */,
 			);
@@ -254,13 +290,25 @@
 				F25B229D9279DCE0FBFE73AD /* PFMainViewController.m in Sources */,
 				F25B28472B6F88B5C4149CD9 /* PFSidebarViewController.m in Sources */,
 				F25B2B2CE9E0222054366763 /* PFFeedbackViewController.m in Sources */,
-				F25B2B1966DB8A5A3989617C /* PFSpeedtestViewController.m in Sources */,
+				F25B2B1966DB8A5A3989617C /* PFSpeedTestViewController.m in Sources */,
+				F25B20DAF0FDFECA2DA59EA9 /* PFProgressView.m in Sources */,
+				F25B24348561726BE1FC5C38 /* PFSummaryViewController.m in Sources */,
+				F25B2D59577102707DABCB73 /* PFThankYouViewController.m in Sources */,
+				F25B2314719552B4BDA53609 /* PFIssueData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		D4EBE2C7196EA5ED0061B29E /* ProgressView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4EBE2C8196EA5ED0061B29E /* Base */,
+			);
+			name = ProgressView.xib;
+			sourceTree = "<group>";
+		};
 		D4EDDA17196DBD390077FE9B /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -360,6 +408,7 @@
 				GCC_PREFIX_HEADER = "P3Feedback/P3Feedback-Prefix.pch";
 				INFOPLIST_FILE = "P3Feedback/P3Feedback-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -374,6 +423,7 @@
 				GCC_PREFIX_HEADER = "P3Feedback/P3Feedback-Prefix.pch";
 				INFOPLIST_FILE = "P3Feedback/P3Feedback-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

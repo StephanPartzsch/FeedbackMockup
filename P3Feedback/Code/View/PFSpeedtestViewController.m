@@ -1,7 +1,7 @@
-#import "PFSpeedtestViewController.h"
+#import "PFSpeedTestViewController.h"
 #import "SWRevealViewController.h"
 
-@implementation PFSpeedtestViewController
+@implementation PFSpeedTestViewController
 
 - (void)viewDidLoad
 {

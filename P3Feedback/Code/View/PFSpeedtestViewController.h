@@ -1,7 +1,7 @@
 #import <Foundation/Foundation.h>
 
 
-@interface PFSpeedtestViewController : UIViewController
+@interface PFSpeedTestViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *sidebarButton;
 

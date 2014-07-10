@@ -1,10 +1,13 @@
 PODS:
+  - Objection (1.4)
   - SWRevealViewController (2.1.0)
 
 DEPENDENCIES:
+  - Objection
   - SWRevealViewController
 
 SPEC CHECKSUMS:
+  Objection: 8176a996209cdcd23490c57d6e807a25faa8d54d
   SWRevealViewController: f76796aab107be84940e20fb3e0fdab8f3ac987b
 
 COCOAPODS: 0.33.1
