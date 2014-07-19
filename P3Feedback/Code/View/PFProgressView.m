@@ -31,12 +31,12 @@
 
 - (void)makeProgress
 {
-	[self setProgressToValue:_progressView.progress + 0.04];
+	[self setProgressToValue:_progressView.progress + ((float)0.04)];
 }
 
 - (void)setProgressToValue:(float)value
 {
-	NSInteger percent = value * 100;
+	NSInteger percent = ((int)value) * 100;
 	_progressView.progress = value;
 	_leftLabel.text = [NSString stringWithFormat:@"%i%%", percent];
 	_rightLabel.text = [NSString stringWithFormat:@"%i/100", percent];

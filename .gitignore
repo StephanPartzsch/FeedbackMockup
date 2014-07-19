@@ -17,13 +17,22 @@ DerivedData
 *.ipa
 *.xcuserstate
 
-
 # CocoaPods
-#
 # Pods/
-
-
 # General
-#
 .DS_Store
 .idea
+# OS X Finder
+# Xcode per-user config
+*.mode1
+*.perspective
+# Build products
+*.o
+*.LinkFileList
+# Automatic backup files
+*~.nib/
+*.swp
+*~
+*.dat
+*.dep
+# AppCode
